@@ -1,0 +1,717 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
+<title>网站标题，控制在25个字、50个字节以内</title>
+<meta name="keywords" content="关键词,5个左右,单个8汉字以内">
+<meta name="description" content="网站描述，字数尽量空制在80个汉字，160个字符以内！">
+<link rel="Bookmark" href="favicon.ico" >
+<link rel="Shortcut Icon" href="favicon.ico" />
+<link href="h-ui/css/H-ui.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/css/base.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/css/display.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/css/laypage.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/iconfont/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]> 
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<!--[if IE 6]> 
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*,.pngfix');</script> 
+<![endif]-->
+</head>
+<body>
+<!--公共头部-->
+<div class="container-fluid cl">
+     <!--顶部-->
+     <div class="topnav">
+          <div class="wrapBox cl">
+              <div class="l">
+                    您好，欢迎访问海滨智慧党建网！
+                    <span class="r_nav ml-10"><a title="返回首页" href="index.html">返回首页</a></span>
+                    <span class="pipe">|</span><span class="r_nav"><a href="javascript:void(0)" onclick="setHome(this);" title="设为首页">设为首页</a></span>
+              </div>
+              <div class="r">
+                  <span class="r_nav"> <a rel="nofollow" href="#">登录</a></span><span class="r_nav ml-20"><a href="#" title="网站导航">网站导航</a></span>
+                  <span class="pipe">|</span>
+                  <span class="r_nav"><a title="加入收藏" href="javascript:;" onClick="addFavoritepage('#','#');">加入收藏</a></span>
+              </div>
+          </div>
+    </div>
+    <!--/顶部-->
+    <!--logo+search-->	
+    <div class="headBody cl">
+    	<div class="wrapBox">
+          <div class="logo-box hui-bounceinL f-l">
+              <a href="#"><img src="images/weblogo.png" alt="" width="380" height="120"></a>
+          </div>
+          
+         <!--搜索框-->
+          <div class="searchBar f-r">
+              <form class="form-search" method="post" action="">
+                <input id="searchKeyword" name="searchKeyword" value="请输入搜索关键词" class="searchTxt" autocomplete="on" >
+                <input id="searchBtn" name="searchBtn" type="submit" value="搜索" class="searchBtn" onclick="b_onclick()">
+              </form>
+          </div>
+        <!--/搜索框-->
+      	</div>
+    </div> 
+     <!--/logo+search-->
+     
+     <!--导航模块-->
+     <div class="nav-box">
+     <!--主导航-->
+         <nav class="mainnavs cl">
+            <div class="wrapBox">
+              <ul class="cl">
+              	<li>
+                	<a href="#"><span class="default"><i></i>党建首页</span></a>
+                </li>
+                <li>
+                	<a href="#" target="_blank"><span class="service"><i></i>服务</span></a>
+                </li>
+                <li>
+               		<a href="#" target="_blank"><span class="manage"><i></i>管理</span></a>
+                </li>
+                <li>
+                	<a href="#" target="_blank"><span class="educate"><i></i>教育</span></a>
+                </li>
+                <li class="current">
+                	<a href="#" target="_blank"><span class="display current"><i></i>展示</span></a>
+                </li>
+                <li>
+                	<a href="#" target="_blank"><span class="discipline"><i></i>廉政在线</span></a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <!--/主导航-->
+        <!--面包屑导航-->
+        <nav class="wrapBox Hui-breadcrumb">
+            <span class="c-999">当前位置：</span> 
+            <a class="maincolor" href="/">海滨智慧党建</a>
+            <span class="c-999 en">&gt;</span>
+            <a class="maincolor" href="/">展示</a>
+            <span class="c-999 en">&gt;</span>
+            <a class="maincolor" href="/">党务公开</a>
+            <span class="c-999 en">&gt;</span>
+            <a class="maincolor" href="/">党工委决策与执行情况</a>
+            <span class="c-999 en">&gt;</span>
+            <span class="c-999">列表</span>
+        </nav>
+        <!--/面包屑导航-->
+    </div>
+     <!--/导航模块-->	
+</div>
+<!--/公共头部-->
+
+<!--展示列表模块-->
+<div class="wrapBox cl mt-20">
+	<div class="container h1650">
+    	<!--侧边栏公共部分-->
+        <div class="slidebar l h1650">
+        	<div class="content-box">
+                <h1 class="mb-20">
+                    <i class="iconfont mr-10">&#xe602;</i>展示
+                </h1>
+                <div class="tit h">
+                    阳光资讯
+                </div>
+                <div class="subtit h">
+                    党建指引
+                </div>
+                <div class="panels">
+                	<div class="panels-head">
+                    	党务公开
+                    </div>
+                    <div class="panels-body">
+                    	<ul>
+                        	<li class="active">
+                            	<a href="#" target="_blank">
+                                	党工委决策与执行情况
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	党的组织建设
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	干部队伍建设
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	班子建设
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	党务公开监督栏
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	思想建设
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	绩效完成情况
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	党风廉政建设
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/侧边栏公共部分-->
+        
+        <!--文章列表部分-->
+        <div class="right-box r pl-10 h1648">
+            <h1 class="cl">
+            	<div class="ico-box l radius">
+                	<i class="iconfont">&#xe600;</i>
+                </div>
+                <div class="txt-box l">
+                	<p>
+                    	党工委决策与执行情况
+                    </p>
+                    <span>
+                    	坚持解放思想，实事求是，与时俱进
+                    </span>
+                </div>
+            </h1>
+            
+            <!--文章列表-->
+            <div class="artical-list">
+            	<ul class="list">
+                	<li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <ul class="list">
+                	<li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <ul class="list">
+                	<li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <ul class="list">
+                	<li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <ul class="list">
+                	<li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <ul class="list">
+                	<li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <ul class="list">
+                	<li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank">
+                        	<span class="t text-overflow">
+                            	习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲习近平在越南国会发表重要演讲
+                            </span>
+                            <span class="time">
+                            2015-12-11
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="page1" class="text-c"><div name="laypage1.2" class="laypage_main laypageskin_default" id="laypage_0"><span class="laypage_curr">1</span><a href="javascript:;" data-page="2">2</a><a href="javascript:;" data-page="3">3</a><a href="javascript:;" data-page="4">4</a><a href="javascript:;" data-page="5">5</a><span>…</span><a href="javascript:;" class="laypage_last" title="尾页" data-page="32">32</a><a href="javascript:;" class="laypage_next" data-page="2">下一页</a></div></div>
+            <!--/文章列表-->
+        </div>
+        <!--/文章列表部分-->
+    </div>
+</div>
+<!--/展示列表模块-->
+
+<!--底部-->
+<footer>
+	<div class="footer mt-20">
+    	<div class="wrapBox cl">
+           <div class="coryright-box col-10">
+               <ul class="unstyled inline">
+                <li>
+                    <a href="#" target="_blank">
+                        关于本站
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        使用帮助
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        访问统计
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        联系我们
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        免责声明
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        网站导航
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        网站纠错
+                    </a>
+                </li>
+            </ul>
+        
+            <div class="foot-body row">
+                <p class="col-12">
+                    <span>
+                        主办单位：泉州市鲤城区海滨街道办事处&nbsp;鲤城区人民政府网管中心建设管理
+                    </span>
+                    <span>
+                        联系电话：(0595)22355670
+                    </span>
+                    <span>
+                         编辑邮箱：qzlcgov@sina.com
+                    </span>
+                </p>
+                
+                <p class="col-12">
+                    <span>
+                        承办单位：鲤城区人民政府办公室主办&nbsp;鲤城区委宣传部联办&nbsp;鲤城区各街道、园区、区直部门协办 
+                    </span>
+                </p>
+                
+                <p class="col-12">
+                    <span>
+                        网站备案号：闽ICP备09028941号-1
+                    </span>
+                    <span class="ml-25">
+                        您是本站第<b>9368444</b>位访问者
+                    </span>
+                </p>
+            </div>
+        </div>
+        
+        <div class="col-2 dangjian">
+            <div class="r">
+            <img src="images/dangzheng.png" alt="党政机关" class="pngfix">
+            </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+<!--/底部-->
+<script type="text/javascript" src="lib/jquery.min.js"></script> 
+<script type="text/javascript" src="h-ui/js/h-ui.js"></script>
+<script type="text/javascript" src="lib/laypage/1.2/laypage.js"></script>
+<script>
+    $.getJSON('test/demo1.json', {curr: 6}, function(res){ //从第6页开始请求。返回的json格式可以任意定义
+    	laypage({
+    		cont: 'page1', //容器。值支持id名、原生dom对象，jquery对象。【如该容器为】：&lt;div id="page1">&lt;/div>
+            pages: res.pages, //通过后台拿到的总页数
+            curr: 6, //初始化当前页
+            jump: function(e){ //触发分页后的回调
+                $.getJSON('test/demo1.json', {curr: e.curr}, function(res){
+                    e.pages = e.last = res.pages; //重新获取总页数，一般不用写
+                    //渲染
+                    var view = document.getElementById('view1'); //你也可以直接使用jquery
+                    var demoContent = (new Date().getTime()/Math.random()/1000)|0; //此处仅仅是为了演示
+                    view.innerHTML = res.content + demoContent; 
+                });
+            }
+        });
+    });
+</script>
+<script>
+	var html='<div class="toTop ie6fixedBR" style="display:none"><a href="#" target="_blank" title="网站导航" alt="网站导航"><img src="images/daohang.png" alt=""></a><a href="#" target="_blank" title="网站纠错" alt="网站纠错"><img src="images/jiucuo.png" alt=""></a><a href="javascript:void(0)" title="返回顶部" alt="返回顶部"><img src="images/backtop.png" alt=""></a></div>';
+    var $backToTopEle=$(html).appendTo($("body")).click(function(){
+    	$("html, body").animate({ scrollTop: 0 }, 120);
+    });
+    var $backToTopFun = function() {
+    	var st = $(document).scrollTop(), winh = $(window).height();
+    	(st > 0)? $backToTopEle.show(): $backToTopEle.hide();
+    	/*IE6下的定位*/
+    	if(!window.XMLHttpRequest){
+    		$backToTopEle.css("top", st + winh - 166);
+    	}
+    };
+	
+$(function(){$(window).on("scroll",$backToTopFun);$backToTopFun();});
+</script>
+</body>
+</html>

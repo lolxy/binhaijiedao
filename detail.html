@@ -1,0 +1,403 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
+<title>网站标题，控制在25个字、50个字节以内</title>
+<meta name="keywords" content="关键词,5个左右,单个8汉字以内">
+<meta name="description" content="网站描述，字数尽量空制在80个汉字，160个字符以内！">
+<link rel="Bookmark" href="favicon.ico" >
+<link rel="Shortcut Icon" href="favicon.ico" />
+<link href="h-ui/css/H-ui.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/css/base.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/css/display.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/css/detail.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/iconfont/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]> 
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<!--[if IE 6]> 
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*,.pngfix');</script> 
+<![endif]-->
+</head>
+<body>
+<!--公共头部-->
+<div class="container-fluid cl">
+     <!--顶部-->
+     <div class="topnav">
+          <div class="wrapBox cl">
+              <div class="l">
+                    您好，欢迎访问海滨智慧党建网！
+                    <span class="r_nav ml-10"><a title="返回首页" href="index.html">返回首页</a></span>
+                    <span class="pipe">|</span><span class="r_nav"><a href="javascript:void(0)" onclick="setHome(this);" title="设为首页">设为首页</a></span>
+              </div>
+              <div class="r">
+                  <span class="r_nav"> <a rel="nofollow" href="#">登录</a></span><span class="r_nav ml-20"><a href="#" title="网站导航">网站导航</a></span>
+                  <span class="pipe">|</span>
+                  <span class="r_nav"><a title="加入收藏" href="javascript:;" onClick="addFavoritepage('#','#');">加入收藏</a></span>
+              </div>
+          </div>
+    </div>
+    <!--/顶部-->
+    <!--logo+search-->	
+    <div class="headBody cl">
+    	<div class="wrapBox">
+          <div class="logo-box hui-bounceinL f-l">
+              <a href="#"><img src="images/weblogo.png" alt="" width="380" height="120"></a>
+          </div>
+          
+         <!--搜索框-->
+          <div class="searchBar f-r">
+              <form class="form-search" method="post" action="">
+                <input id="searchKeyword" name="searchKeyword" value="请输入搜索关键词" class="searchTxt" autocomplete="on" >
+                <input id="searchBtn" name="searchBtn" type="submit" value="搜索" class="searchBtn" onclick="b_onclick()">
+              </form>
+          </div>
+        <!--/搜索框-->
+      	</div>
+    </div> 
+     <!--/logo+search-->
+     
+     <!--导航模块-->
+     <div class="nav-box">
+     <!--主导航-->
+         <nav class="mainnavs cl">
+            <div class="wrapBox">
+              <ul class="cl">
+              	<li>
+                	<a href="#"><span class="default"><i></i>党建首页</span></a>
+                </li>
+                <li>
+                	<a href="#" target="_blank"><span class="service"><i></i>服务</span></a>
+                </li>
+                <li>
+               		<a href="#" target="_blank"><span class="manage"><i></i>管理</span></a>
+                </li>
+                <li>
+                	<a href="#" target="_blank"><span class="educate"><i></i>教育</span></a>
+                </li>
+                <li class="current">
+                	<a href="#" target="_blank"><span class="display current"><i></i>展示</span></a>
+                </li>
+                <li>
+                	<a href="#" target="_blank"><span class="discipline"><i></i>廉政在线</span></a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <!--/主导航-->
+        <!--面包屑导航-->
+        <nav class="wrapBox Hui-breadcrumb">
+            <span class="c-999">当前位置：</span> 
+            <a class="maincolor" href="/">海滨智慧党建</a>
+            <span class="c-999 en">&gt;</span>
+            <a class="maincolor" href="/">展示</a>
+            <span class="c-999 en">&gt;</span>
+            <a class="maincolor" href="/">党务公开</a>
+            <span class="c-999 en">&gt;</span>
+            <a class="maincolor" href="/">党工委决策与执行情况</a>
+            <span class="c-999 en">&gt;</span>
+            <span class="c-999">列表</span>
+        </nav>
+        <!--/面包屑导航-->
+    </div>
+     <!--/导航模块-->	
+</div>
+<!--/公共头部-->
+
+<!--展示列表模块-->
+<div class="wrapBox cl mt-20">
+	<div class="container h1650">
+    	<!--侧边栏公共部分-->
+        <div class="slidebar l h1650">
+        	<div class="content-box">
+                <h1 class="mb-20">
+                    <i class="iconfont mr-10">&#xe602;</i>展示
+                </h1>
+                <div class="tit h">
+                    阳光资讯
+                </div>
+                <div class="subtit h">
+                    党建指引
+                </div>
+                <div class="panels">
+                	<div class="panels-head">
+                    	党务公开
+                    </div>
+                    <div class="panels-body">
+                    	<ul>
+                        	<li class="active">
+                            	<a href="#" target="_blank">
+                                	党工委决策与执行情况
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	党的组织建设
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	干部队伍建设
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	班子建设
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	党务公开监督栏
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	思想建设
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	绩效完成情况
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#" target="_blank">
+                                	党风廉政建设
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/侧边栏公共部分-->
+        
+        <!--文章列表部分-->
+        <div class="right-box r pl-10 h1648">
+                <div class="txt-box mt-20 cl">
+                	<h2 class="mt-10">
+                    	习近平在国会发表重要演讲
+                    </h2>
+                    <div class="baseinfo cl pos-r">
+                        <div class="subinfo l">
+                            <span class="tit">党工委决策与执行情况</span>
+                            <i>|</i>
+                            <span>人民日报<em>2015-11-07</em></span>
+                            <i>|</i>
+                            <span>我要分享<i class="iconfont" style="float:right;font-size:18px;color:#999">&#xe609;</i></span>
+                        </div>
+                        
+                        <div class="nums r mr-10">
+                            <span class="shoucang">
+                            	<a href="#"><i class="iconfont">&#xe60b;</i></a>
+                            </span>
+                            <span class="char">
+                                <em><i class="iconfont">&#xe60a;</i></em>
+                                <b>89</b>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            
+            <!--文章详细-->
+            <div class="artical-detail cl">
+            	
+                <div class="thumbs mt-20 mb-20 container w-600 cl">
+                	<img src="images/detail.png" alt="" width="600" height="490">
+                </div> 
+                
+                <div class="contents">
+<p>11月6日，中共中央总书记、国家主席习近平在越南国会发表题为《共同谱写中越友好新篇章》的重要演讲。 新华社记者 庞兴雷 摄</p>
+<p>人民日报全媒体平台（中央厨房）河内11月6日电 （记者杜尚泽）中共中央总书记、国家主席习近平6日在越南国会发表题为《共同谱写中越友好新篇章》的重要演讲。习近平强调，中越一家亲。中方高度重视发展同越南的关系，愿同越方一道，登高望远、携手努力，为开创中越全面战略合作伙伴关系新局面，为建设持久和平、共同繁荣的亚洲和世界，作出新的更大的贡献。</p>
+<p>当地时间上午10时35分许，在越南国会主席阮生雄陪同下，习近平步入演讲大厅。国会代表们全体起立，鼓掌欢迎。在热烈掌声中，习近平发表重要演讲。</p>
+<p>习近平指出，近代以来，中越两国经历了从任人欺凌走向民族独立、从闭关锁国走向改革开放、从贫困落后走向繁荣富强的艰辛历程。在越南共产党领导下，越南人民走出了一条社会主义革新之路。我们愿同越南同志继续保持相互学习、相互借鉴、相互支持的好传统，携手为两国社会主义事业发展、为两国人民幸福安康努力奋斗。</p>
+<p>习近平强调，中华民族历来爱好和平。中国人民热爱并珍惜来之不易的和平局面。中国发展离不开和平稳定的国际和周边环境，中国成长将壮大维护世界和平的正义力量。</p>
+<p>习近平强调，中越关系具有十分重要的战略意义。中越传统友谊是由毛泽东主席、周恩来总理、胡志明主席等双方老一辈领导人亲手缔造的，是两党两国和两国人民的宝贵财富。双方应该坚持以中越友好大局和两国发展大局为重，坚持相互尊重、友好协商、求同存异、妥处分歧。兄弟同心，其利断金。当前，中越两党两国面临许多相同或相似的新问题新挑战。中方高度重视发展同越南的关系，愿同越方一道，继续秉持长期稳定、面向未来、睦邻友好、全面合作的方针和好邻居、好朋友、好同志、好伙伴的精神，推动中越全面战略合作伙伴关系持续稳定健康发展，为两国人民带来更大福祉。</p>
+<p>中越要做互信互助的好同志。胡志明主席说：“越中情谊深，同志加兄弟。”中越两国坚持共产党领导、坚持社会主义道路、坚持改革开放和革新事业，是历史的选择，也是两国人民的选择。在坚持和发展我们两国人民自己选择的发展道路这个重大问题上，我们两党两国人民应该坚定信心、相互支持、携手前进。我们愿同越南同志互信互助、互学互鉴，共同为社会主义事业和人类社会发展作出积极贡献。</p>
+                </div>
+                
+                <div class="articl-foot pos-r mt-30">
+                	<div class="shape-box pos-a top">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_32x32 pos-r">
+                            <div class="l">分享到：</div>
+                            <a class="jiathis_button_weixin"></a>
+                            <a class="jiathis_button_tsina"></a>
+                            <a class="jiathis_button_qzone"></a>
+                            <a class="jiathis_button_tqq"></a>
+                            <a class="jiathis_button_xiaoyou"></a>
+                        </div>
+                        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+                        <!-- JiaThis Button END -->
+                    </div>
+                    
+                    <div class="r qxsc">
+                    	<a href="#"><i class="iconfont">&#xe60b;</i>取消收藏</a>
+                    </div>
+                </div>
+            
+            </div>
+            <!--/文章详细-->
+            
+            <!--评论-->
+            <div class="comment-box">
+            	<div class="comment-head mb-10">
+                	<div class="l">
+                    	<span class="h3">网友评论</span>
+                        <span>文明上网理性发言，请遵守新闻评论服务协议</span>
+                    </div>
+                    <div class="r">
+                    	<em>169</em>
+                        <span>条评论</span>
+                    </div>
+                </div>
+                <div class="comment-body cl">
+                	<form action="" method="post" name="form" class="form form-horizontal responsive">
+                    	<textarea name="" id="" cols="30" rows="10" class="textarea" style="margin:0px;float:left" placeholder="请文明发言"></textarea>
+                        <div class="cl form-foot">
+                            <div class="l">
+                                <img src="images/slide/slide1.png" alt="" class="circle" width="30" height="30">
+                                <span class="ml-10">吴主任</span>
+                            </div>
+                            <div class="r">
+                                <input type="submit" value="发表评论" class="btn btn-danger radius" style="border:1px solid #e00018;background:#e00018"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--/评论-->
+            
+        </div>
+        <!--/文章列表部分-->
+    </div>
+</div>
+<!--/展示列表模块-->
+
+<!--底部-->
+<footer>
+	<div class="footer mt-20">
+    	<div class="wrapBox cl">
+           <div class="coryright-box col-10">
+               <ul class="unstyled inline">
+                <li>
+                    <a href="#" target="_blank">
+                        关于本站
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        使用帮助
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        访问统计
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        联系我们
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        免责声明
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        网站导航
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        网站纠错
+                    </a>
+                </li>
+            </ul>
+        
+            <div class="foot-body row">
+                <p class="col-12">
+                    <span>
+                        主办单位：泉州市鲤城区海滨街道办事处&nbsp;鲤城区人民政府网管中心建设管理
+                    </span>
+                    <span>
+                        联系电话：(0595)22355670
+                    </span>
+                    <span>
+                         编辑邮箱：qzlcgov@sina.com
+                    </span>
+                </p>
+                
+                <p class="col-12">
+                    <span>
+                        承办单位：鲤城区人民政府办公室主办&nbsp;鲤城区委宣传部联办&nbsp;鲤城区各街道、园区、区直部门协办 
+                    </span>
+                </p>
+                
+                <p class="col-12">
+                    <span>
+                        网站备案号：闽ICP备09028941号-1
+                    </span>
+                    <span class="ml-25">
+                        您是本站第<b>9368444</b>位访问者
+                    </span>
+                </p>
+            </div>
+        </div>
+        
+        <div class="col-2 dangjian">
+            <div class="r">
+            <img src="images/dangzheng.png" alt="党政机关" class="pngfix">
+            </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+<!--/底部-->
+<script type="text/javascript" src="lib/jquery.min.js"></script> 
+<script type="text/javascript" src="h-ui/js/h-ui.js"></script>
+<script>
+	var html='<div class="toTop ie6fixedBR" style="display:none"><a href="#" target="_blank" title="网站导航" alt="网站导航"><img src="images/daohang.png" alt=""></a><a href="#" target="_blank" title="网站纠错" alt="网站纠错"><img src="images/jiucuo.png" alt=""></a><a href="javascript:void(0)" title="返回顶部" alt="返回顶部"><img src="images/backtop.png" alt=""></a></div>';
+    var $backToTopEle=$(html).appendTo($("body")).click(function(){
+    	$("html, body").animate({ scrollTop: 0 }, 120);
+    });
+    var $backToTopFun = function() {
+    	var st = $(document).scrollTop(), winh = $(window).height();
+    	(st > 0)? $backToTopEle.show(): $backToTopEle.hide();
+    	/*IE6下的定位*/
+    	if(!window.XMLHttpRequest){
+    		$backToTopEle.css("top", st + winh - 166);
+    	}
+    };
+	
+$(function(){$(window).on("scroll",$backToTopFun);$backToTopFun();});
+</script>
+</body>
+</html>

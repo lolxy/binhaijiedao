@@ -1,0 +1,969 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
+<title>网站标题，控制在25个字、50个字节以内</title>
+<meta name="keywords" content="关键词,5个左右,单个8汉字以内">
+<meta name="description" content="网站描述，字数尽量空制在80个汉字，160个字符以内！">
+<link rel="Bookmark" href="favicon.ico" >
+<link rel="Shortcut Icon" href="favicon.ico" />
+<link href="h-ui/css/H-ui.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/css/base.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/css/display.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/css/service.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/css/laypage.css" rel="stylesheet" type="text/css" />
+<link href="h-ui/iconfont/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]> 
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<!--[if IE 6]> 
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js"></script>
+<script>DD_belatedPNG.fix('*,.pngfix');</script> 
+<![endif]-->
+<style>
+.slidebar{width: 318px;border: 1px solid #e2e2e2;background-color:#ccc;_height:1520px;}
+</style>
+</head>
+<body>
+<!--公共头部-->
+<div class="container-fluid cl">
+     <!--顶部-->
+     <div class="topnav">
+          <div class="wrapBox cl">
+              <div class="l">
+                    您好，欢迎访问海滨智慧党建网！
+                    <span class="r_nav ml-10"><a title="返回首页" href="index.html">返回首页</a></span>
+                    <span class="pipe">|</span><span class="r_nav"><a href="javascript:void(0);" onclick="setHome(this);" title="设为首页">设为首页</a></span>
+              </div>
+              <div class="r">
+                  <span class="r_nav"> <a rel="nofollow" href="#">登录</a></span><span class="r_nav ml-20"><a href="#" title="网站导航">网站导航</a></span>
+                  <span class="pipe">|</span>
+                  <span class="r_nav"><a title="加入收藏" href="javascript:;" onClick="addFavoritepage('#','#');">加入收藏</a></span>
+              </div>
+          </div>
+    </div>
+    <!--/顶部-->
+    <!--logo+search-->	
+    <div class="headBody cl">
+    	<div class="wrapBox">
+          <div class="logo-box hui-bounceinL f-l">
+              <a href="#"><img src="images/weblogo.png" alt="" width="380" height="120"></a>
+          </div>
+          
+         <!--搜索框-->
+          <div class="searchBar f-r">
+              <form class="form-search" method="post" action="">
+                <input id="searchKeyword" name="searchKeyword" value="请输入搜索关键词" class="searchTxt" autocomplete="on" >
+                <input id="searchBtn" name="searchBtn" type="submit" value="搜索" class="searchBtn" onclick="b_onclick()">
+              </form>
+          </div>
+        <!--/搜索框-->
+      	</div>
+    </div> 
+     <!--/logo+search-->
+     
+     <!--导航模块-->
+     <div class="nav-box">
+     <!--主导航-->
+         <nav class="mainnavs cl">
+            <div class="wrapBox">
+              <ul class="cl">
+              	<li>
+                	<a href="#"><span class="default"><i></i>党建首页</span></a>
+                </li>
+                <li class="current">
+                	<a href="#" target="_blank"><span class="service"><i></i>服务</span></a>
+                </li>
+                <li>
+               		<a href="#" target="_blank"><span class="manage"><i></i>管理</span></a>
+                </li>
+                <li>
+                	<a href="#" target="_blank"><span class="educate"><i></i>教育</span></a>
+                </li>
+                <li>
+                	<a href="#" target="_blank"><span class="display current"><i></i>展示</span></a>
+                </li>
+                <li>
+                	<a href="#" target="_blank"><span class="discipline"><i></i>廉政在线</span></a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <!--/主导航-->
+        <!--面包屑导航-->
+        <nav class="wrapBox Hui-breadcrumb">
+            <span class="c-999">当前位置：</span> 
+            <a class="maincolor" href="/">海滨智慧党建</a>
+            <span class="c-999 en">&gt;</span>
+            <a class="maincolor" href="/">服务</a>
+            <span class="c-999 en">&gt;</span>
+            <a class="maincolor" href="/">志愿服务</a>
+            <span class="c-999 en">&gt;</span>
+            <a class="maincolor" href="/">服务活动</a>
+            <span class="c-999 en">&gt;</span>
+            <span class="c-999">列表</span>
+        </nav>
+        <!--/面包屑导航-->
+    </div>
+     <!--/导航模块-->	
+</div>
+<!--/公共头部-->
+
+<!--管理模块-->
+<div class="wrapBox cl mt-20">
+	  <div class="container pb-10">
+		<!--侧边栏公共部分-->
+		<div class="slidebar l">
+			<div class="content-box">
+				<h1 class="mb-20">
+					<i class="iconfont mr-10">&#xe602;</i>服务
+				</h1>
+				<div class="panels-m">
+					<div class="panels-body">
+						
+						<ul id="slideNav" class="slidenav">
+                        	<li class="item">
+								<h4 class="selected">
+									党员代表工作室
+								</h4>
+                                <div class="info" style="display:block">
+                                	<ul>
+                                        <li class="active">
+                                            <a href="#" target="_blank">
+                                                党代表信息
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                活动公告
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                约见党代表
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                心声传递
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</li>
+							<li class="item">
+								<h4>
+									志愿服务
+								</h4>
+                                <div class="info">
+                                	<ul>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                党代表信息
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                活动公告
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                约见党代表
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                心声传递
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</li>
+							<li class="item">
+								<h4>
+									人才驿站
+								</h4>
+                                <div class="info">
+                                	<ul>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                党代表信息
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                活动公告
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                约见党代表
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                心声传递
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</li>
+							<li class="item">
+								<h4>
+									党务百宝箱
+								</h4>
+                                <div class="info">
+                                	<ul>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                党代表信息
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                活动公告
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                约见党代表
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                心声传递
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</li>
+							<li class="item">
+								<h4>
+									群众点单
+								</h4>
+                                <div class="info">
+                                	<ul>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                党代表信息
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                活动公告
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                约见党代表
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                心声传递
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</li>
+							<li class="item">
+								<h4>
+									P2P帮扶
+								</h4>
+                                <div class="info">
+                                	<ul>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                党代表信息
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                活动公告
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                约见党代表
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                心声传递
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</li>
+							<li class="item">
+								<h4>
+									便民服务
+								</h4>
+                                <div class="info">
+                                	<ul>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                党代表信息
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                活动公告
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                约见党代表
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                心声传递
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</li>
+							<li class="item">
+								<h4>
+									联系我们
+								</h4>
+                                <div class="info">
+                                	<ul>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                党代表信息
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                活动公告
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                约见党代表
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">
+                                                心声传递
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/侧边栏公共部分-->
+		
+		<!--右侧内容部分-->
+		<div class="right-box r pl-10">
+			
+			<h1 class="cl">
+				<div class="ico-box l radius">
+					<i class="iconfont">&#xe60d;</i>
+				</div>
+				<div class="txt-box l">
+					<p>
+						服务活动
+					</p>
+					<span>
+						提倡志愿者欣赏他人	、与人为善、有爱无碍、平等尊重
+					</span>
+				</div>
+			</h1>
+			
+			<!--接访信息部分-->
+			<div class="serive-box mt-10">
+            	
+               <div class="w90">
+               		<h2>
+                    	<span>预定与普及登革热知识活动</span>
+                        <a href="#" target="_blank" class="btn btn-default radius f-r">
+                        	<i class="iconfont">&#xe60e;</i>申请加入
+                        </a>
+                    </h2>
+                    <table class="table table-center">
+                    	<tr>
+                        	<th width="100">状态：</th>
+                            <td colspan="3" class="text-l"><span class="label label-success radius pd-5">进行时</span></td>
+                        </tr>
+                        <tr>
+                        	<th>所属组织：</th>
+                            <td>共青团天河区委党支部</td>
+                            <th>活动时间：</th>
+                            <td>2015年11月07日</td>
+                        </tr>
+                        <tr>
+                        	<th>活动地址：</th>
+                            <td>天河公园南门志愿驿站</td>
+                            <th>创建时间：</th>
+                            <td>2015年10月20日</td>
+                        </tr>
+                        <tr>
+                            <th>参与人数：</th>
+                            <td colspan="3">7人</td>
+                        </tr>
+                        <tr>
+                            <th>报名人员：</th>
+                            <td colspan="3">刘华,陈雯兰,黄永亮,黄丽敏,李汶强,黄润庆,李铧屹</td>
+                        </tr>
+                        <tr>
+                            <th>实际参与人员：</th>
+                            <td colspan="3">刘华,陈雯兰,黄永亮,黄丽敏,李汶强,黄润庆,李铧屹</td>
+                        </tr>
+                        <tr>
+                            <th>活动内容：</th>
+                            <td colspan="3">
+                            <p>“青春社区志愿行”系列活动如期举行。华农公共管理学院“你还没吃梨”团队在天河公园南门志愿驿站为市民提供服务，普及登革热知识，预防登革热。</p><p>鉴于广州夏季气候湿热，易导致蚊虫滋生，登革热高发，但市民对此了解并不全面，因此，进行普及与预防宣传，显得尤为重要。活动中，到驿站了解登革热防控知识的市民络绎不绝。与此同时，志愿者还为市民免费派发灭蚊片和风油精等预防物资，并即场为市民喷洒驱蚊水。在志愿者的通力合作下，活动进展顺利，市民热情高涨，宣传小册和预防物资全部派发一空。</p><p>不少市民表示，自己社区也有不少的防蚊措施，只是来到公园，他们受蚊子的困扰很大，这次的志愿服务活动正好为他们带来了便利。本次活动得到了广大市民的认可与支持。志愿者们希望通过活动让更多的市民了解登革热、认识登革热，推动全民防控登革热的目标。</p></td>
+                        </tr>
+                    </table>
+               </div>
+               
+               <div class="comment-list">
+            	<div id="com-list" class="HuiTab">
+                  <div class="tabBar cl">
+                  <span class="current">活动动态</span>
+                  </div>
+                  <div class="tabCon">
+                  		<div class="hot-box">
+                            <div class="clist">
+                            	<ul>
+                                	<li>
+                                    	<div class="commentBoxs pos-r cl">
+                                            <div class="thumb-pic f-l">
+                                            	<img src="images/slide/slide1.png" alt="" class="circle responsive" width="40" height="40">
+                                            </div>
+                                            
+                                            <div class="comment-content f-r">
+                                            	<p class="sinfo">
+                                                	<span>王主任</span>
+                                                    <span class="time">8小时前</span>
+                                                    <a class="jubao" target="javascritp:void(0);">
+                                                    	<i class="iconfont">&#xe616;</i>
+                                                        举报
+                                                    </a>
+                                                </p>
+                                                <p class="content">
+                                                	台湾问题的解决主要存在两个难点，一是美国干涉，不想看到一个全面统一的中国，想一直将台湾设为遏制中国的一个不沉的航空母舰；二是台湾本岛居民的历史认知；真希望有生之年能看到台湾回归祖国的那刻，必将激动人心，彪炳史册！
+                                                <img src="images/slide/slide1.png" alt="">
+                                                </p>
+                                                <p class="replys">
+                                                	<a class="dianzan" href="#">
+                                                    	<i class="iconfont">&#xe611;</i>
+                                                        (586)
+                                                    </a>
+                                                    
+                                                    <a class="reply-btn" href="javascript:void(0);">
+                                                    	<i class="iconfont">&#xe617;</i>
+                                                        回复
+                                                    </a>
+                                                    
+                                                    <a class="view-reply" onClick="ajaxmodal('modal_ajax_test.html','');return false;" href="javascript:void(0);">
+                                                    	<i class="iconfont">&#xe615;</i>
+                                                        查看回复（2）
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="reply-box">
+                                            	
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                    	<div class="commentBoxs pos-r cl">
+                                            <div class="thumb-pic f-l">
+                                            	<img src="images/slide/slide1.png" alt="" class="circle responsive" width="40" height="40">
+                                            </div>
+                                            
+                                            <div class="comment-content f-r">
+                                            	<p class="sinfo">
+                                                	<span>王主任</span>
+                                                    <span class="time">8小时前</span>
+                                                    <a class="jubao" target="javascritp:void(0);">
+                                                    	<i class="iconfont">&#xe616;</i>
+                                                        举报
+                                                    </a>
+                                                </p>
+                                                <p class="content">
+                                                	台湾问题的解决主要存在两个难点，一是美国干涉，不想看到一个全面统一的中国，想一直将台湾设为遏制中国的一个不沉的航空母舰；二是台湾本岛居民的历史认知；真希望有生之年能看到台湾回归祖国的那刻，必将激动人心，彪炳史册！
+                                                </p>
+                                                <p class="replys">
+                                                	<a class="dianzan" href="#">
+                                                    	<i class="iconfont">&#xe611;</i>
+                                                        (586)
+                                                    </a>
+                                                    
+                                                    <a class="reply-btn" href="javascript:void(0);">
+                                                    	<i class="iconfont">&#xe617;</i>
+                                                        回复
+                                                    </a>
+                                                    
+                                                    <a class="view-reply" onClick="ajaxmodal('modal_ajax_test.html','');return false;" href="javascript:void(0);">
+                                                    	<i class="iconfont">&#xe615;</i>
+                                                        查看回复（2）
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="reply-box">
+                                            	
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    	<div class="commentBoxs pos-r cl">
+                                            <div class="thumb-pic f-l">
+                                            	<img src="images/slide/slide1.png" alt="" class="circle responsive" width="40" height="40">
+                                            </div>
+                                            
+                                            <div class="comment-content f-r">
+                                            	<p class="sinfo">
+                                                	<span>王主任</span>
+                                                    <span class="time">8小时前</span>
+                                                    <a class="jubao" target="javascritp:void(0);">
+                                                    	<i class="iconfont">&#xe616;</i>
+                                                        举报
+                                                    </a>
+                                                </p>
+                                                <p class="content">
+                                                	台湾问题的解决主要存在两个难点，一是美国干涉，不想看到一个全面统一的中国，想一直将台湾设为遏制中国的一个不沉的航空母舰；二是台湾本岛居民的历史认知；真希望有生之年能看到台湾回归祖国的那刻，必将激动人心，彪炳史册！
+                                                </p>
+                                                <p class="replys">
+                                                	<a class="dianzan" href="#">
+                                                    	<i class="iconfont">&#xe611;</i>
+                                                        (586)
+                                                    </a>
+                                                    
+                                                    <a class="reply-btn" href="javascript:void(0);">
+                                                    	<i class="iconfont">&#xe617;</i>
+                                                        回复
+                                                    </a>
+                                                    
+                                                    <a class="view-reply" onClick="ajaxmodal('modal_ajax_test.html','');return false;" href="javascript:void(0);">
+                                                    	<i class="iconfont">&#xe615;</i>
+                                                        查看回复（2）
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="reply-box">
+                                            	
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    	<div class="commentBoxs pos-r cl">
+                                            <div class="thumb-pic f-l">
+                                            	<img src="images/slide/slide1.png" alt="" class="circle responsive" width="40" height="40">
+                                            </div>
+                                            
+                                            <div class="comment-content f-r">
+                                            	<p class="sinfo">
+                                                	<span>王主任</span>
+                                                    <span class="time">8小时前</span>
+                                                    <a class="jubao" target="javascritp:void(0);">
+                                                    	<i class="iconfont">&#xe616;</i>
+                                                        举报
+                                                    </a>
+                                                </p>
+                                                <p class="content">
+                                                	台湾问题的解决主要存在两个难点，一是美国干涉，不想看到一个全面统一的中国，想一直将台湾设为遏制中国的一个不沉的航空母舰；二是台湾本岛居民的历史认知；真希望有生之年能看到台湾回归祖国的那刻，必将激动人心，彪炳史册！
+                                                </p>
+                                                <p class="replys">
+                                                	<a class="dianzan" href="#">
+                                                    	<i class="iconfont">&#xe611;</i>
+                                                        (586)
+                                                    </a>
+                                                    
+                                                    <a class="reply-btn" href="javascript:void(0);">
+                                                    	<i class="iconfont">&#xe617;</i>
+                                                        回复
+                                                    </a>
+                                                    
+                                                    <a class="view-reply" onClick="ajaxmodal('modal_ajax_test.html','');return false;" href="javascript:void(0);">
+                                                    	<i class="iconfont">&#xe615;</i>
+                                                        查看回复（2）
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="reply-box">
+                                            	
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    	<div class="commentBoxs pos-r cl">
+                                            <div class="thumb-pic f-l">
+                                            	<img src="images/slide/slide1.png" alt="" class="circle responsive" width="40" height="40">
+                                            </div>
+                                            
+                                            <div class="comment-content f-r">
+                                            	<p class="sinfo">
+                                                	<span>王主任</span>
+                                                    <span class="time">8小时前</span>
+                                                    <a class="jubao" target="javascritp:void(0);">
+                                                    	<i class="iconfont">&#xe616;</i>
+                                                        举报
+                                                    </a>
+                                                </p>
+                                                <p class="content">
+                                                	台湾问题的解决主要存在两个难点，一是美国干涉，不想看到一个全面统一的中国，想一直将台湾设为遏制中国的一个不沉的航空母舰；二是台湾本岛居民的历史认知；真希望有生之年能看到台湾回归祖国的那刻，必将激动人心，彪炳史册！
+                                                </p>
+                                                <p class="replys">
+                                                	<a class="dianzan" href="#">
+                                                    	<i class="iconfont">&#xe611;</i>
+                                                        (586)
+                                                    </a>
+                                                    
+                                                    <a class="reply-btn" href="javascript:void(0);">
+                                                    	<i class="iconfont">&#xe617;</i>
+                                                        回复
+                                                    </a>
+                                                    
+                                                    <a class="view-reply" onClick="ajaxmodal('modal_ajax_test.html','');return false;" href="javascript:void(0);">
+                                                    	<i class="iconfont">&#xe615;</i>
+                                                        查看回复（2）
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="reply-box">
+                                            	
+                                            </div>
+                                        </div>
+                                        </li>
+                                </ul>
+                                <a href="#" class="load_more">加载更多</a>
+                            </div>
+                        </div>
+                                
+                        </div>
+                </div>
+            </div>
+            
+            <div id="ajaxModal" class="modal hide fade" tabindex="-1" data-width="900">
+            	<div class="commentBoxs w800 pos-r cl">
+                    <div class="thumb-pic f-l">
+                        <img src="images/slide/slide1.png" alt="" class="circle responsive" width="40" height="40">
+                    </div>
+                    
+                    <div class="comment-content comment-content-p f-r">
+                        <p class="sinfo">
+                            <span>王主任</span>
+                            <span class="time">8小时前</span>
+                        </p>
+                        <p class="content">
+                            台湾问题的解决主要存在两个难点，一是美国干涉，不想看到一个全面统一的中国，想一直将台湾设为遏制中国的一个不沉的航空母舰；二是台湾本岛居民的历史认知；真希望有生之年能看到台湾回归祖国的那刻，必将激动人心，彪炳史册！
+                        </p>
+                        <p class="replys">
+                            <a class="dianzan" href="#">
+                                <i class="iconfont">&#xe611;</i>
+                                (586)
+                            </a>
+                            
+                            <a class="reply-btn" href="javascript:void(0);">
+                                <i class="iconfont">&#xe617;</i>
+                                回复
+                            </a>
+                            
+                            <a class="view-reply" href="javascript:void(0);">
+                                <i class="iconfont">&#xe615;</i>
+                                查看回复（2）
+                            </a>
+                        </p>
+                    </div>
+                    <div class="reply-box cl"></div>
+                </div>
+                
+                <!--回复子项-->
+                <div class="w800 w800-c">
+                    <ul>
+                    	<li>
+                        	<div class="commentBoxs pos-r cl">
+                                <div class="thumb-pic f-l">
+                                    <img src="images/slide/slide1.png" alt="" class="circle responsive" width="40" height="40">
+                                </div>
+                                
+                                <div class="comment-content comment-content-c f-r">
+                                    <p class="sinfo">
+                                        <span>林主任</span>
+                                        <span class="time">9小时前</span>
+                                    </p>
+                                    <p class="content">
+                                       还有一点，中华人民共和国对中华民国的认知
+                                    </p>
+                                    <p class="replys">
+                                        <a class="dianzan" href="#">
+                                            <i class="iconfont">&#xe611;</i>
+                                            (586)
+                                        </a>
+                                        
+                                        <a class="reply-btn" href="javascript:void(0);">
+                                            <i class="iconfont">&#xe617;</i>
+                                            回复
+                                        </a>
+                                        
+                                        <a class="view-reply" href="javascript:void(0);">
+                                            <i class="iconfont">&#xe615;</i>
+                                            查看回复（2）
+                                        </a>
+                                    </p>
+                                </div>
+                                <div class="reply-box"></div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                        	<div class="commentBoxs pos-r cl">
+                                <div class="thumb-pic f-l">
+                                    <img src="images/slide/slide1.png" alt="" class="circle responsive" width="40" height="40">
+                                </div>
+                                
+                                <div class="comment-content comment-content-c f-r">
+                                    <p class="sinfo">
+                                        <span>林主任</span>
+                                        <span class="time">9小时前</span>
+                                    </p>
+                                    <p class="content">
+                                       还有一点，中华人民共和国对中华民国的认知
+                                    </p>
+                                    <p class="replys">
+                                        <a class="dianzan" href="#">
+                                            <i class="iconfont">&#xe611;</i>
+                                            (586)
+                                        </a>
+                                        
+                                        <a class="reply-btn" href="javascript:void(0);">
+                                            <i class="iconfont">&#xe617;</i>
+                                            回复
+                                        </a>
+                                        
+                                        <a class="view-reply" href="javascript:void(0);">
+                                            <i class="iconfont">&#xe615;</i>
+                                            查看回复（2）
+                                        </a>
+                                    </p>
+                                </div>
+                                <div class="reply-box"></div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+                <!--/回复子项-->
+                <div class="no-reply">没有更多回复</div>
+            </div>
+                
+			</div>
+			<!--/接访信息部分-->
+	   		</div>
+		</div>
+		<!--/右侧内容部分-->
+	  </div>
+<!--/管理模块-->
+
+<!--底部-->
+<footer>
+	<div class="footer mt-20">
+    	<div class="wrapBox cl">
+           <div class="coryright-box col-10">
+               <ul class="unstyled inline">
+                <li>
+                    <a href="#" target="_blank">
+                        关于本站
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        使用帮助
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        访问统计
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        联系我们
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        免责声明
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        网站导航
+                    </a>
+                </li>
+                <li class="fenge-line">
+                    |
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        网站纠错
+                    </a>
+                </li>
+            </ul>
+        
+            <div class="foot-body row">
+                <p class="col-12">
+                    <span>
+                        主办单位：泉州市鲤城区海滨街道办事处&nbsp;鲤城区人民政府网管中心建设管理
+                    </span>
+                    <span>
+                        联系电话：(0595)22355670
+                    </span>
+                    <span>
+                         编辑邮箱：qzlcgov@sina.com
+                    </span>
+                </p>
+                
+                <p class="col-12">
+                    <span>
+                        承办单位：鲤城区人民政府办公室主办&nbsp;鲤城区委宣传部联办&nbsp;鲤城区各街道、园区、区直部门协办 
+                    </span>
+                </p>
+                
+                <p class="col-12">
+                    <span>
+                        网站备案号：闽ICP备09028941号-1
+                    </span>
+                    <span class="ml-25">
+                        您是本站第<b>9368444</b>位访问者
+                    </span>
+                </p>
+            </div>
+        </div>
+        
+        <div class="col-2 dangjian">
+            <div class="r">
+            <img src="images/dangzheng.png" alt="党政机关" class="pngfix">
+            </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+<!--/底部-->
+<script type="text/javascript" src="lib/jquery.min.js"></script> 
+<script type="text/javascript" src="h-ui/js/h-ui.js"></script>
+<script type="text/javascript" src="lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript" src="lib/bootstrap-modal/2.2.4/bootstrap-modalmanager.js"></script>
+<script type="text/javascript" src="lib/bootstrap-modal/2.2.4/bootstrap-modal.js"></script>
+<script>
+$(function(){
+	$("#menu_4 dt").addClass("selected");$("#menu_4 dd").show();;
+	$(".Hui-aside").scrollTop(320);
+	
+	$('.slidebar').height($('.right-box').height());
+});
+/*获取滚动条高度*/
+$(document).scroll(
+  function(){
+    var sTop=$(document).scrollTop();
+    $("#scrollTop1").val(sTop);
+  }
+);
+var $modal = $('#ajaxModal');
+var oldtitle=document.title;
+function ajaxmodal(url,pagetitle){
+	document.title=pagetitle;/*修改页面标题*/
+  var sTop=$("#scrollTop1").val();/*获取滚动条的高度*/
+  $("#scrollTop2").val(sTop);/*将滚动条高度传给#scrollTop2*/
+	$("body").modalmanager("loading");
+	$modal.load(url, '', function(){
+		$modal.modal();
+	});
+}
+$modal.on('hide',function(){
+	document.title=oldtitle;
+  var sTop2=$("#scrollTop2").val();
+  $(document).scrollTop(sTop2);/*让滚动条回到弹出前状态*/
+});
+
+</script>
+<script>
+$(function(){
+	
+	var html='<form action="" method="post" name="form" class="form form-horizontal responsive"><textarea name="" id="" cols="30" rows="10" class="textarea" style="margin:0px;float:left" placeholder="请文明发言"></textarea><div class="cl form-foot"><div class="r"><input type="submit" value="回复" class="btn btn-danger radius" style="border:1px solid #e00018;background:#e00018"/></div></div></form>';
+	
+	$('.reply-btn').click(function(){
+		$('.reply-btn').parents('.comment-content').siblings('.reply-box').empty().hide();
+		$(this).parents('.comment-content').siblings('.reply-box').show().append(html);
+		$('.slidebar').height($('.right-box').height());
+		});
+	
+	$('.clist li').hover(function(){
+		$(this).find('.jubao').show();
+		},function(){
+		$(this).find('.jubao').hide();
+		});
+	});
+</script>
+<script>
+    $.getJSON('test/demo1.json', {curr: 6}, function(res){ //从第6页开始请求。返回的json格式可以任意定义
+    	laypage({
+    		cont: 'page1', //容器。值支持id名、原生dom对象，jquery对象。【如该容器为】：&lt;div id="page1">&lt;/div>
+            pages: res.pages, //通过后台拿到的总页数
+            curr: 6, //初始化当前页
+            jump: function(e){ //触发分页后的回调
+                $.getJSON('test/demo1.json', {curr: e.curr}, function(res){
+                    e.pages = e.last = res.pages; //重新获取总页数，一般不用写
+                    //渲染
+                    var view = document.getElementById('view1'); //你也可以直接使用jquery
+                    var demoContent = (new Date().getTime()/Math.random()/1000)|0; //此处仅仅是为了演示
+                    view.innerHTML = res.content + demoContent; 
+                });
+            }
+        });
+    });
+</script>
+<script>
+	var html='<div class="toTop ie6fixedBR" style="display:none"><a href="#" target="_blank" title="网站导航" alt="网站导航"><img src="images/daohang.png" alt=""></a><a href="#" target="_blank" title="网站纠错" alt="网站纠错"><img src="images/jiucuo.png" alt=""></a><a href="javascript:void(0)" title="返回顶部" alt="返回顶部"><img src="images/backtop.png" alt=""></a></div>';
+    var $backToTopEle=$(html).appendTo($("body")).click(function(){
+    	$("html, body").animate({ scrollTop: 0 }, 120);
+    });
+    var $backToTopFun = function() {
+    	var st = $(document).scrollTop(), winh = $(window).height();
+    	(st > 0)? $backToTopEle.show(): $backToTopEle.hide();
+    	/*IE6下的定位*/
+    	if(!window.XMLHttpRequest){
+    		$backToTopEle.css("top", st + winh - 166);
+    	}
+    };
+	
+$(function(){$(window).on("scroll",$backToTopFun);$backToTopFun();});
+    $(function(){
+    	$.Huifold("#slideNav .item h4","#slideNav .item .info","fast",2,"click");
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+a,a:hover{text-decoration:none;}
+.w-600{width: 600px;}
+.right-box .txt-box{width:96%;height:70px;overflow: hidden;border-bottom: 1px solid #e2e2e2;margin-top: 20px;}
+.right-box .txt-box h2{font-size: 24px;font-weight: 400;}
+.right-box .txt-box .baseinfo{width: 100%;display:block}
+
+.right-box .txt-box .subinfo{height: 30px;line-height: 30px;overflow: hidden;}
+.right-box .txt-box span {
+    display: block;
+    height: 30px;
+    line-height: 35px;
+    font-size: 14px;
+	float: left;
+}
+.right-box .txt-box span.tit{color: #e00018;}
+.right-box .txt-box i{display:block;float: left;font-style:normal;font-size: 12px;margin-top: 2px;margin-left: 8px;margin-right:8px;color:#999;_line-height:65px;}
+.right-box .txt-box span em{font-style:normal;margin-left: 15px;}
+.nums{*margin-top: -32px;}
+.nums .shoucang i{color:#ff808e;font-size: 18px;}
+.txt-box .nums .char{margin-top: 5px;}
+.txt-box .nums .char em{display:block;width: 25px;height: 25px;background: #ff808e;float: left;margin-left: 0;}
+.txt-box .nums .char em i{color:#fff;font-size:16px;float: left;padding: 0;margin: 0;width: 25px;height: 25px;display:block;text-align:center;line-height: 25px;_line-height: 55px;overflow: hidden;}
+.txt-box .nums .char b{padding: 0 16px 0 10px;background: #ffe6e8;height: 25px;display:block;float: left;line-height: 25px;font-size: 14px;font-family: "宋体";color:#e85565}
+
+.artical-detail .contents{width:94%;margin:0px auto;}
+.artical-detail p{text-indent:2em;line-height:30px;font-family: "宋体";font-size: 14px;}
+@media (max-width: 1399px) {
+	.artical-detail p{line-height:27px\0;line-height:28px;_line-height:27px;}
+}
+@media (min-width: 1400px) {
+	.artical-detail p{line-height:34px\0;line-height:35px;_line-height:34px;}
+}
+
+.articl-foot{height: 50px;overflow: hidden;width: 94%;margin:0px auto}
+.articl-foot .shape-box{font-size: 14px;font-family: "宋体";line-height: 32px;}
+.qxsc{font-size: 12px;font-family: "宋体";height: 50px;line-height: 70px;}
+.qxsc i{font-size: 16px;color:#ff808e;margin-right: 5px;}
+.qxsc a:hover{color:#FF808E}
+
+.comment-box{width: 94%;margin:10px auto}
+.comment-box .comment-head{height: 40px;line-height: 40px;overflow: hidden;}
+.comment-box .comment-head span.h3{font-size: 18px;color:#333}
+.comment-box .comment-head em{font-size: 12px;color:#CFCbc7;font-style:normal}
+.comment-box .comment-head span{font-size: 12px;color:#cfcbc7}
+.comment-box .comment-body{padding: 0;}
+.comment-box .comment-body .textarea{*width: 98%;*height:75px;height:75px\0;}
+.form-foot{height:34px;padding:5px 10px;line-height:32px;background: #f8f8f8;border: 1px solid #e2e2e2;border-top: none;overflow: hidden;*width:96%;}
+@media (max-width: 1399px) {
+	.form-foot{*width:96%;}
+}
+@media (min-width: 1400px) {
+	.form-foot{*width:97%;}
+}
+
+.commentBox{margin:30px auto 20px;font-size: 20px;}
+.commentBox h2{height: 35px;line-height: 35px;font-size: 24px;width: 94%;margin:0px auto;}
+.form-foot span{margin-top: 5px;font-size: 14px;}
+
+.comment-list{width: 94%;margin:0px auto;margin-top: 30px;}
+.comment-list a{color:#333}
+.comment-list a:hover{color:#e00018}
+.tabBar {border-bottom:1px solid #e2e2e2}
+.tabBar span {background-color:#fff;cursor: pointer;display: inline-block;float: left;font-weight:400;height:40px;line-height:40px;padding: 0 20px;font-size: 16px;}
+.tabBar span.current{background-color: #fff;color: #333;border-bottom:4px solid #e00018;}
+.tabCon {display:block;}
+.comment-list h4{height: 30px;line-height: 30px;font-size: 14px;color:#e00018;border-bottom: 1px solid #e2e2e2;margin-top: 20px;}
+
+.commentBoxs .thumb-pic{width:10%;padding-top: 15px;text-align:center;_float:left;}
+.commentBoxs .comment-content{width:90%;_float:right;}
+.clist li{border-bottom: 1px solid #e2e2e2;padding-bottom: 10px;margin-bottom: 10px;_margin-bottom:5px;_padding-bottom:0px;_display:inline-block;}
+.clist li i{font-size: 10px;}
+.comment-content .sinfo,.comment-content .replys{height: 30px;line-height: 30px;overflow: hidden;}
+.comment-content .replys{_padding-top:5px;}
+.comment-content .replys a{color:#999;margin-right: 10px;}
+.comment-content .content{line-height: 24px;font-size: 14px;color:#333;text-indent:2em;height:auto;}
+.comment-content .content img{margin: 5px 0px;width: 272px;height: 180px;border-radius:6px;}
+.comment-content .sinfo span{color:#333;font-size: 12px;margin-right: 10px;float: left;display:block}
+.comment-content .sinfo span.time{color:#999}
+.comment-content .sinfo a.jubao{float: right;display:block;color:#ccc;display:none}
+
+.new-box .clist a.load_more{height: 40px;background: #e8e8e8;text-align:center;line-height: 40px;display:block;width: 100%;font-size: 14px;color:#787878;margin-bottom: 20px;}
+
+.reply-box{height: 150px;overflow: hidden;clear:both;width: 90%;float: right;margin-top: 10px;_margin-top:0px;_margin-bottom:10px;*height:auto;display:none}
+.reply-box .textarea{*width:98%}
+.reply-box .form-foot{*width:auto}
+
+/*查看回复*/
+.modal {position:absolute;top:50%;left:50%; width:500px;margin-left:-250px;z-index:1050;overflow: visible;background-color: #fff;background-clip: padding-box;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -webkit-background-clip:padding-box;
+    -khtml-background-clip:padding-box;
+    -moz-background-clip:padding-box;
+    -ms-background-clip:padding-box;
+    -o-background-clip:padding-box;
+    background-clip:padding-box;
+    border-radius:0px;
+    border:1px solid rgba(0, 0, 0, 0.3);*border:1px solid #999}/*弹出层，绝对定位，默认【宽度500px，高度自适应，背景白色，6px圆角，带阴影】，自定义宽度可在data-width中设置参数*/
+
+.w800{width:800px;margin:20px auto;overflow: hidden;}
+.w800 .comment-content-p{width: 88%;border-right: 5px solid #e00018;border-bottom: 1px dotted #e2e2e2;padding-bottom: 10px;}
+.w800 .comment-content-c{width: 90%;border-bottom: 1px dotted #e2e2e2;padding-bottom: 10px;margin-bottom: -1px;}
+.w800-c{margin:0px auto;}
+.w800-c .commentBoxs{width: 90%;float: right;}
+.no-reply{font-size: 12px;height: 30px;line-height: 30px;text-align:center;color:#999;margin-bottom: 10px;border-top: 1px solid #e2e2e2;margin-top: 10px;}
